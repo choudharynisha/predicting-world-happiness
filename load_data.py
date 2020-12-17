@@ -4,6 +4,7 @@ Author = Nisha Choudhary
 Date   = Friday, December 4, 2020
 """
 
+from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -125,6 +126,54 @@ def read_files(starting_year, ending_year, renamed, regions, columns):
     # putting each year's data together
     dataframe = pd.concat(dataframes)
     return dataframe
+
+def split_data(dataframe, column_names):
+    """
+    Splits the data into train data, train labels, test data, and test
+    labels
+
+    Args:
+        dataframe (pandas.dataframe): All data from each of the years from
+                                        all of the columns wanted
+        column_names (list): All the column names in dataframe to be saved
+
+    Returns:
+        NumPy.ndarray: labels
+        NumPy.ndarray: data
+    """
+    # convert to a NumPy array in order to split the data into labels and
+    # data and into train and test data, specifically to work with the
+    # happiness dataset
+    data_numpy = dataframe[column_names].to_numpy()
+    data_column_indices = list(range(4, (len(column_names))))
+    labels = data_numpy[:, [0, 2, 3]]
+    data = data_numpy[:, data_column_indices]
+    return labels, data
+
+def split_train_test(data, labels, seed):
+    """Splits the data and labels into train and test data
+
+    Args:
+        data (numpy.ndarray): The feature values of the dataset
+        labels (numpy.ndarray): The labels of each data (the happiness score)
+        seed (int): The specified seed to look at (or None to use the default
+                    seed)
+
+    Returns:
+        list: The data / feature values of the train data
+        list: The data / feature values of the test data
+        list: The labels of the train data
+        list: The labels of the test data
+    """
+    if seed == None:
+        data_train, data_test, labels_train, labels_test =\
+            train_test_split(data, labels, test_size = 0.20)
+        return data_train, data_test, labels_train, labels_test
+    
+    data_train, data_test, labels_train, labels_test =\
+        train_test_split(data, labels, test_size = 0.20,\
+            random_state = seed)
+    return data_train, data_test, labels_train, labels_test
 
 if __name__ == "__main__":
     main()
