@@ -146,7 +146,7 @@ def split_data(dataframe, column_names):
     # happiness dataset
     data_numpy = dataframe[column_names].to_numpy()
     data_column_indices = list(range(4, (len(column_names))))
-    labels = data_numpy[:, [0, 2, 3]]
+    labels = data_numpy[:, [0, 1, 2, 3]]
     data = data_numpy[:, data_column_indices]
     return labels, data
 
