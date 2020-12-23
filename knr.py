@@ -29,11 +29,6 @@ class KNeighborsRegressorModel():
         self.train_labels = train_labels
         self.start = start
         self.end = end
-        self.regions = []
-        regions = np.unique(train_labels[:, 2])
-
-        for region in regions:
-            self.regions.append((random.random(), random.random(), random.random()))
     
     def train(self):
         """Trains the model using the training data and labels"""

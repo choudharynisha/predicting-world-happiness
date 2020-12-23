@@ -10,7 +10,6 @@ from sklearn.linear_model import LinearRegression
 
 # plotting functions and packages
 import matplotlib.pyplot as plt
-import random
 
 # data handling
 import pandas as pd
