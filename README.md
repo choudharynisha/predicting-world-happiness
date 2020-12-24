@@ -171,7 +171,7 @@ __*Seed of 42*__<br />
 
 ## Goals for the Future
 – Update the dataset and predict 2021 data (and later)<br />
-– Make a web app to make the data and results more accessible<br />
+– Learn more about how to collect data<br />
 – Put together different data sources<br />
 &emsp;→ Consider other potential factors of happiness<br />
 &emsp;&emsp;⇒ Volunteer work<br />
@@ -181,5 +181,6 @@ __*Seed of 42*__<br />
 &emsp;&emsp;⇒ How much natural light people are exposed to<br />
 &emsp;&emsp;⇒ Personal assessment of work-life balance<br />
 &emsp;→ Compare similar measures from different data sources<br />
-– Learn more about how to collect data<br />
-– Learn more about positive psychology to help determine what leads to better perceptions of personal happiness
+– Learn more about positive psychology to help determine what leads to better perceptions of personal happiness<br />
+– Make a web app to make the data and results more accessible<br />
+– Combine with [the Happy Journal web app project](https://github.com/choudharynisha/CS380-Happy-Journal)
