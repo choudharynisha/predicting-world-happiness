@@ -173,13 +173,17 @@ __*Seed of 42*__<br />
 – Update the dataset and predict 2021 data (and later)<br />
 – Learn more about how to collect data<br />
 – Put together different data sources<br />
-&emsp;→ Consider other potential factors of happiness<br />
+&emsp;→ Consider other potential factors of happiness, including but not limited to<br />
 &emsp;&emsp;⇒ Volunteer work<br />
 &emsp;&emsp;⇒ Scale of self-appreciation<br />
 &emsp;&emsp;&emsp;⇛ 1 = no self-appreciation<br />
-&emsp;&emsp;&emsp;⇛ 10 = lots of self-appreciation)<br />
+&emsp;&emsp;&emsp;⇛ 10 = lots of self-appreciation<br />
 &emsp;&emsp;⇒ How much natural light people are exposed to<br />
+&emsp;&emsp;⇒ Air quality and pollution – scale<br />
+&emsp;&emsp;&emsp;⇛ 1 = no pollution<br />
+&emsp;&emsp;&emsp;⇛ 10 = high pollution<br />
 &emsp;&emsp;⇒ Personal assessment of work-life balance<br />
+&emsp;&emsp;⇒ How much experiences versus material goods are valued<br />
 &emsp;→ Compare similar measures from different data sources<br />
 – Learn more about positive psychology to help determine what leads to better perceptions of personal happiness<br />
 – Make a web app to make the data and results more accessible<br />
