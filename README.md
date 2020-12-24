@@ -9,7 +9,7 @@ The main driver program for this project is `find_happiness.py`.
 ### Requirements
 The language requirement is Python 3. To download Python 3, please visit [the Download Python page](https://www.python.org/downloads).
 
-To run `find_happiness.py`, you need the following Python packages –
+To run `find_happiness.py`, you need the following Python packages –<br />
 – `matplotlib`<br />
 – `numpy`<br />
 – `pandas`<br />
