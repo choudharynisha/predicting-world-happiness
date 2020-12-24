@@ -10,16 +10,18 @@ The main driver program for this project is `find_happiness.py`.
 The language requirement is Python 3. To download Python 3, please visit [the Download Python page](https://www.python.org/downloads).
 
 To run `find_happiness.py`, you need the following Python packages –
-1. `matplotlib`
-2. `numpy`
-3. `pandas`
-4. `scikit-learn`
+– `matplotlib`<br />
+– `numpy`<br />
+– `pandas`<br />
+– `scikit-learn`
 
 To download these packages with pip, you can use the following commands in your Terminal / Command Prompt window –<br />
 `pip3 install matplotlib`<br />
 `pip3 install numpy`<br />
 `pip3 install pandas`<br />
 `pip3 install scikit-learn`
+
+If you do not have pip installed, please navigate to [the pip documentation's Installation page](https://pip.pypa.io/en/stable/installing).
 
 ### Command Line Arguments
 All command line arguments are optional. Entering `python3 find_happiness.py` will run the program using data from 2015 through 2019 and split the data with a random seed.
@@ -39,7 +41,7 @@ Examples of commands to run with the optional commands –<br />
 `python3 find_happiness.py -s 2019 -d 42`<br />
 *Runs the program only using data from 2019 with a seed of 42*
 
-<sup>\*</sup> The program will not run if the specified `year_end` is before the specified `year_start`.
+<sup>\*</sup> The program will not run if the specified `year_end` is before the specified `year_start`.<br />
 <sup>\*\*</sup> If the seed is `None`, a random seed will be used to split the data into training and testing.
 
 ### Output
