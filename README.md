@@ -170,15 +170,16 @@ __*Seed of 42*__<br />
 3. Going off of the last observation about how a country's region was not a feature used to predict the happiness score of each country, it seems like a lot of this computation was based off a definition that a certain group of people, and by this definition, since different countries in the same region do have similarities, it seems to make sense, in a way, that countries in the same region may be in the same part of the scatterplots.
 
 ## Goals for the Future
-– Updating the dataset and predicting 2021 data (and later)<br />
-– Putting together different data sources<br />
-&emsp;→ Considering other potential factors of happiness<br />
+– Update the dataset and predict 2021 data (and later)<br />
+– Make a web app to make the data and results more accessible<br />
+– Put together different data sources<br />
+&emsp;→ Consider other potential factors of happiness<br />
 &emsp;&emsp;⇒ Volunteer work<br />
 &emsp;&emsp;⇒ Scale of self-appreciation<br />
 &emsp;&emsp;&emsp;⇛ 1 = no self-appreciation<br />
 &emsp;&emsp;&emsp;⇛ 10 = lots of self-appreciation)<br />
 &emsp;&emsp;⇒ How much natural light people are exposed to<br />
 &emsp;&emsp;⇒ Personal assessment of work-life balance<br />
-&emsp;→ Comparing similar measures from different data sources<br />
-– Learning more about how to collect data<br />
-– Learning more about positive psychology to help determine what leads to better perceptions of personal happiness
+&emsp;→ Compare similar measures from different data sources<br />
+– Learn more about how to collect data<br />
+– Learn more about positive psychology to help determine what leads to better perceptions of personal happiness
