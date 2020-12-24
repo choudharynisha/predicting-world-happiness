@@ -86,12 +86,12 @@ The dataset is stored in a Pandas DataFrame. Certain years did not have region, 
 ## Observations
 The seeds that I compared the results of were 10, 18, 26, 34, and 42.
 
-__*Common observations among all seeds –*__
+### Common observations among all seeds
 1. The K Neighbors Regressor model was more correlated than the Linear Regression model, no matter what the seed was for shuffling, even though linear regression is known to work well with continuous data and K Nearest Neighbors is not known to be a very effective algorithm.
 2. While there were a few outliers that predicted a lower happiness score than it should have, most outliers would predict a higher happiness score, regardless of whether the model was K Neighbors Regressor or Linear Regression.
 3. As the seed increased, the correlation coefficient R<sup>2</sup> for both models decreased.
 4. The models performed about the same, regardless of whether or not the feature values were scaled using the MinMaxScaler.
-5. The correlation coefficient R<sup>2</sup> for both models were generally high (> 0.7), and most points on the scatterplots were somewhere around the ideal line of `y = x`.
+5. Both models had a generally high correlation coefficient R<sup>2</sup> (> 0.7), and most points on the scatterplots were somewhere around the ideal line of `y = x`.
 
 __*Seed of 10*__<br />
 *Linear Regression*<br />
@@ -181,4 +181,4 @@ __*Seed of 42*__<br />
 &emsp;&emsp;⇒ Personal assessment of work-life balance<br />
 &emsp;→ Comparing similar measures from different data sources<br />
 – Learning more about how to collect data<br />
-– Learning more about positive psychology to better determine and predict personal happiness perceptions
+– Learning more about positive psychology to help determine what leads to better perceptions of personal happiness
